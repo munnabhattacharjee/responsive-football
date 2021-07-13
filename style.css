@@ -1,0 +1,45 @@
+/* -------------------------------
+     common styles or utilities
+---------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+}
+
+/* navigation style */
+.navigation{
+    background-color: #2D25A0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D25A0;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.pages{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.page{
+    color: white;
+    text-decoration: none;
+    margin-right: 36px;
+    font-size: 20px;
+}
+.login-area{
+    background-color: #E02C6D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.login-button {
+    color: white;
+    
+    font-size: 20px;   
+    text-decoration: none;
+}
