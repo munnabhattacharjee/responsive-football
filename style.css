@@ -240,9 +240,29 @@ header{
     border-radius: 5px;
 }
 .news-info h3{
-    margin: 0;
+    margin-bottom: 20px;
 }
 .news-info span{
     margin-top: 10px;
 }
 
+/* -------------------
+    footer style 
+----------------------*/
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.footer-img img{
+    width: 350px;
+    height: 100px;
+}
+.icons{
+    text-decoration: none;
+    font-size: 40px;
+    color: slategray;
+    margin-right: 10px;
+}
