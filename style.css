@@ -15,7 +15,7 @@ body{
     margin-right: 400px ;
 }
 hr{
-    border: 2px solid #E02C6D;
+    border: 1px solid #E02C6D;
     margin-top: 40px;
     margin-bottom: 20px;
     width: 50%
@@ -156,22 +156,48 @@ header{
     width: 550px;
     height: 400px;
 }
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.link:hover{
+    border: 3px solid #2D25A0;
+}
 
 /* ---------------------------
      team rangking styles    
 ------------------------------ */
+.team-rank{
+    font-size: 40px;
+    text-align: center;
+
+}
 .teams{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-left: 100px;
+    margin-right: 70px;
 }
 .team{
     display: flex;
     align-items: center;
     width: 200px;
-    height: 150px;
+    height: 50px;
     background-color: white;
     padding: 15px;
-
+    margin: 10px;
+    border-radius: 25px;
+    filter: drop-shadow(0.1rem 0.1rem 0.3rem gray);
+    transition: transform 0.5s linear;
+}
+.team:hover{
+    transform: scale(1.1);
 }
 .team-info{
     margin-right: 20px;
@@ -179,4 +205,11 @@ header{
 .team-img img{
     width: 30px;
     height: 30px;
+    border-radius: 50px;
+}
+.see-link{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
 }
